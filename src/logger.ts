@@ -2,7 +2,7 @@ import * as Logger from 'bunyan';
 
 const streams = [{
   stream: process.stdout,
-  level: 'info' as Logger.LogLevelString,
+  level: (process.env.LOG_LEVEL || 'info') as Logger.LogLevelString,
 }];
 
 export function create(name: string): Logger {
