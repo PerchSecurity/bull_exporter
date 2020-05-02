@@ -44,7 +44,10 @@ if (require.main === module) {
 
   let exitCode = 0;
   main(...args)
-    .catch(() => process.exitCode = exitCode = 1)
+    .catch(err => {
+      console.error(err);
+      process.exitCode = exitCode = 1;
+    })
     .then(() => {
       setTimeout(
         () => {
