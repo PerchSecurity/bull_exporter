@@ -1,0 +1,13 @@
+Repository Name: PerchSecurity/bull_exporter
+Description: Exporter for granfana resource monitoring UI of the BULL queue used for integratioopn-service log and notification queing - Typscript, Shell
+Product: CW Siem
+Business Pillar: Cybersecurity
+Business Criticality: Low
+Product Owner: Sravya Mutnuru
+Engineering Lead: Robert Farmer
+Team Owner ID: 185
+Purpose: Tooling
+Type: API/Microservice
+User Access: Tool/plugin
+CI Type: N/A
+Exceptions:
